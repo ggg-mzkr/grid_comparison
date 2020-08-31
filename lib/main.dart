@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:grid_comparison/dragablegridview_flutter/view.dart';
 import 'package:grid_comparison/reorderables/view.dart';
 import 'package:grid_comparison/reorderables_provider/view.dart';
+
+import 'dragablegridview_flutter_provider/view.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,6 +20,8 @@ class MyApp extends StatelessWidget {
       routes: <String, WidgetBuilder> {
         '/reorderables': (BuildContext context) => ReorderablesView(),
         '/reorderables_provider': (BuildContext context) => ReorderablesProviderView(),
+        '/dragablegridview_flutter': (BuildContext context) => DragablegridviewFlutterView(),
+        '/dragablegridview_flutter_provider': (BuildContext context) => DragablegridviewFlutterViewProvider(),
       },
     );
   }
@@ -36,7 +41,9 @@ class Home extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             _button("reorderables", () => Navigator.of(context).pushNamed("/reorderables")),
-            _button("reorderables_provider", () => Navigator.of(context).pushNamed("/reorderables_provider")),
+            _button("reorderables with provider", () => Navigator.of(context).pushNamed("/reorderables_provider")),
+            _button("dragablegridview_flutter", () => Navigator.of(context).pushNamed("/dragablegridview_flutter")),
+            _button("dragablegridview_flutter with provider", () => Navigator.of(context).pushNamed("/dragablegridview_flutter_provider")),
           ],
         ),
       ),
