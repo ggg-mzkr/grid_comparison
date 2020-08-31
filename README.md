@@ -1,16 +1,24 @@
 # grid_comparison
 
-grid_comparison
+ドラッグ & ドロップできるgrid viewライブラリでの実装
 
-## Getting Started
+## demo
 
-This project is a starting point for a Flutter application.
+# reorderbles
+https://pub.dev/packages/reorderables
 
-A few resources to get you started if this is your first Flutter project:
+<img src="https://raw.github.com/wiki/ggg-mzkr/grid_comparison/images/reorderbles.gif" width="50%">
+https://github.com/ggg-mzkr/grid_comparison/tree/master/lib/reorderables
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+with provider
+<img src="https://raw.github.com/wiki/ggg-mzkr/grid_comparison/images/reorderbles_provider.gif" width="50%">
+https://github.com/ggg-mzkr/grid_comparison/tree/master/lib/reorderables_provider
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# dragablegridview_flutter
+https://pub.dev/packages/dragablegridview_flutter
+<img src="https://raw.github.com/wiki/ggg-mzkr/grid_comparison/images/dragable_grid_view.gif" width="50%">
+https://github.com/ggg-mzkr/grid_comparison/tree/master/lib/dragablegridview_flutter
+
+with provider
+<img src="https://raw.github.com/wiki/ggg-mzkr/grid_comparison/images/dragable_grid_view_provider.gif" width="50%">
+https://github.com/ggg-mzkr/grid_comparison/tree/master/lib/dragablegridview_flutter_provider
